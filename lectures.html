@@ -1,0 +1,158 @@
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38064517-1']);
+  _gaq.push(['_setDomainName', 'github.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!DOCTYPE html>
+<html>
+<body>
+<img align = "left" src="swami3.jpg" height = "125" width = "125" alt="Swami"> <br>
+<img align = "right" src="SSSIHL.jpg" height = "110" width = "110" alt="SSSIHL">
+<h2 style="text-align:center;color:#333399;"> Programming for Performance </h2>
+<h3 style="text-align:center;"> (CS 1207) Mon - Fri 1:00 - 3:50 p.m.</h3>
+
+<hr />
+
+<div style="width:20%; float: left">
+<div style="background-color:#E0E0E0;">
+<h3 style="background-color:#FFA500;borderStyle:dashed;text-align:center;"> Links </h3>
+<a href="index.html"> Announcements </a> <br />
+Lectures<br />
+<a href="assignments.html"> Assignments </a> <br />
+<a href="references.html"> References </a> <br />
+<a href="https://piazza.com/class#spring2013/cs1207"> Piazza </a> <br />
+</div>
+
+
+<div style="background-color:#E0E0E0;">
+<h3 style="background-color:#FFA500;borderStyle:dashed;text-align:center;"> Instructor </h3>
+Sudheer Kumar <br />
+Email: <a href="mailto:cdsudheerkumar@sssihl.edu.in "> cdsudheerkumar@sssihl.edu.in </a> <br />
+
+
+</div>
+     
+
+<div style="background-color:#E0E0E0;">
+<h3 style="background-color:#FFA500;borderStyle:dashed;text-align:center;">Textbook</h3>
+
+Introduction to High Performance Computing for Scientists and Engineers by Georg Hager and Gerhard Wellein. <em> CRC Press </em> <br />
+</div>
+<div style="background-color:#E0E0E0;">
+<h3 style="background-color:#FFA500;borderStyle:dashed;text-align:center;">Institute</h3>
+University website: <a href="http://sssihl.edu.in">SSSIHL</a> <br />
+Bhagawan: <a href="http://radiosai.org">Radio Sai</a> <br />
+</div>
+</div>
+
+
+
+<div style="width:75%; float: right">
+<div style="background-color:#E0E0E0;">
+<h3 style="background-color:#FFA500;borderStyle:dashed;text-align:center;"> Lectures </h3>
+
+<table border="1">
+<tr>
+<th> Lecture<br>Date </th>
+<th>Topic</th>
+<th>Slides</th>
+<th>Reading Assignment/<br>code</th>
+</tr>
+
+<tr>
+<td> Jan 18 </td>
+<td>Introduction</td>
+<td> <a href="Lecture1.pdf"> Course Motivation and Organization </a> </td>
+<td><a href="./MATMUL.tar"> MATMUL code (various versions)</a> </td>
+</tr>
+<tr>
+<td> Jan 21 </td>
+<td> Bentley Rules for Optimizing Work (Writing Efficient Programs by John Benteley) </td>
+<td> <a href="Bentley_Rules.pdf"> Benteley Rules </a> </td>
+</tr>
+
+<tr>
+<td> Jan 22 </td>
+<td> Assembly Level Optimizations </td>
+<td> <a href="C2Assembly.pdf"> Assembly</a> </td>
+<td><a href="fib.c"> fib.c</a>  <a href="buffovflw.pdf"> Buffer Overflow</a></td>
+</tr>
+
+<tr>
+<td> Jan 23 </td>
+<td> Optimization Blockers LS 2 </td>
+<td> <a href="Optimization1.pdf"> Optimizations1</a> <br>
+ <a href="Optimization2.pdf"> Optimizations2</a> </td>
+ <td><a href="csapp_opt.tar"> code</a></td>
+</tr>
+
+<tr>
+<td> Jan 24 </td>
+<td> Profiling Tools LS 3 (Branchless Merge sort vs Quick sort)</td>
+<td> <a href="Profilingtools.pdf"> Profiling </a> </td>
+<td> <a href="Branch Prediction.pdf"> Branch Prediction links</a>
+<a href="pipelining.pdf"> Pipelining</a></td>
+</tr>
+
+<tr>
+  <td> Feb 4 </td>
+  <td> Benchmarking (Issues with accurately timing a code) Nano level benchmarking: Discuss X-ray paper.</td>
+  <td> <a href="x-ray.pdf"> x-ray presentation </a> </td>
+</tr>
+
+<tr>
+<td> Feb 5 </td>
+<td> Vectorization (SIMD programming) </td>
+<td> <a href="simd.pdf"> SIMD Programming</a>
+  <a href="Vectorization.pdf"> Compiler Vectorization</a>
+</td>
+<td> <a href="IACA-Guide.pdf"> IACA User Guide </a> </td>
+</tr>
+
+
+<tr>
+<td> Feb 19 </td>
+<td> Memory Locality Optimizations  </td>
+<td> <a href="./Memory/opintensity.pdf"> Operational Intensity </a>  <br>
+<a href="./Memory/cacheintro1.pdf"> Caches Introduction 1 </a>  <br>
+<a href="./Memory/cacheintro2.pdf"> Caches Introduction 2</a>  <br>
+  <a href="./Memory/cacheanalysis.pdf"> Caches Stride Analysis </a> <br>
+  <a href="./Memory/CacheModels.pdf"> Caches Models and Program Transformations</a>
+</td>
+</tr>
+
+<tr>
+<td> Mar 12 </td>
+<td> Intel MIC (Xeon Phi) based Programming </td>
+<td><a href="http://www.tacc.utexas.edu/c/document_library/get_file?uuid=8ef78389-86fe-4dcc-9699-871ce722ad03&groupId=13601">MIC (Xeon Phi Coprocessor)</a> <br>
+<a href="http://www.tacc.utexas.edu/c/document_library/get_file?uuid=ed331f32-49db-4c4b-9ea7-f7d9547c79d9&amp;groupId=13601">Native Computing (&amp; Optimization)</a> <br>
+<a href="http://www.tacc.utexas.edu/c/document_library/get_file?uuid=ce8c165e-eb81-4a60-99c3-e6c18f04ae1f&amp;groupId=13601">Symmetric Computing</a> <br>
+<a href="http://www.tacc.utexas.edu/c/document_library/get_file?uuid=e8da0d9d-257b-4053-9998-1f017aee048f&amp;groupId=13601">Offloading</a> 
+</td>
+</tr>
+
+<tr>
+<td> Mar 14 </td>
+<td> Fooling the masses with performance results </td>
+<td><a href="http://crd-legacy.lbl.gov/~dhbailey/dhbtalks/dhb-12ways.pdf">Original Article</a> <br>
+<a href="http://blogs.fau.de/hager/category/fooling-the-masses">Latest Stunts</a> <br>
+ <a href="http://www.hpcwire.com/hpcwire/2011-12-13/ten_ways_to_fool_the_masses_when_giving_performance_results_on_gpus.html">Fool with GPUs </a></td>
+</tr>
+
+<tr>
+<td> Mar 18 </td>
+<td> GPU Programming </td>
+<td><a href="http://www.cs.berkeley.edu/~demmel/cs267_Spr13/Lectures/CatanzaroIntroToGPUs.pdf">Lecture on CUDA</a> 
+<td><a href="http://www.youtube.com/watch?v=6_wov2laA7U&list=SPYTiwx6hV33vMPVw_n-svAjkcRlMRSH9f&index=11">video</a> 
+<br>
+</tr>
